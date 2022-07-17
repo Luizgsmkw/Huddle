@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-button{
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    border: hsl(322, 100%, 66%) 1px solid;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: hsla(322, 100%, 66%, 0.292) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    color: hsl(321, 100%, 78%);
+    border: hsl(321, 100%, 78%) 1px solid;
+    box-shadow: hsla(321, 100%, 78%, 0.348) 0px 3px 8px;
+    cursor: pointer;
+}
+
+@media(max-width: 480px) {
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo{
+        height: 25px;
+        width: 130px;
+    }
+}
